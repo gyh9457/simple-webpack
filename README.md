@@ -8,4 +8,6 @@
   yarn debug // 调试 webpack
   yarn tapable // 测试 Tapable 示例
   yarn loader // 测试 loader 示例
+  yarn minipack // minipack 打包
+  yarn minipackTest // 测试 minipack 打包结果
 ```

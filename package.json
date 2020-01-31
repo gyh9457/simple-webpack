@@ -6,6 +6,10 @@
   "author": "guoyh",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/parser": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/traverse": "^7.8.4",
     "html-loader": "^0.5.5",
     "loader-utils": "^1.2.3",
     "minimize": "^2.2.0",
@@ -17,7 +21,9 @@
     "build": "webpack",
     "debug": "node --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "tapable": "node ./src/tapable.js",
-    "loader": "webpack ./src/loaderTest/index.js"
+    "loader": "webpack ./src/loaderTest/index.js",
+    "minipack": "node ./src/minipack/index.js",
+    "minipackTest": "node ./src/minipack/minipack-dist/bundle.js"
   },
   "dependencies": {
     "tapable": "^1.1.3"
